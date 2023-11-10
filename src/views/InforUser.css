@@ -1,0 +1,54 @@
+.Menu-user{
+    color: white;
+    border: 2px solid rgb(75, 225, 225);
+    border-radius: 18px;
+    width: 1450px;
+    height: 50px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    margin-left: 11px;
+    margin-top: -350px;
+    z-index: 100;
+}
+
+.separator-user {
+    width: 98.5%;
+    border: 2px solid white; /* Loại bỏ border mặc định của thẻ hr */
+    height: 2px;
+    background-color: white;
+    margin-top: 0px; /* Điều chỉnh khoảng cách giữa line và h2 */
+    margin-left: 18px;
+}
+
+.profile-menu-user{
+    margin-left: 1394px; 
+    margin-top: -83px;
+}
+
+.icon-ant{
+    font-size: 30px;
+}
+
+.title-user{
+    margin-right: 1300px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 99.5%;
+    margin-left: 5px;
+    margin-top: 60px;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  
+  tr:nth-child(even) {
+    background-color: #695e5e;
+  }

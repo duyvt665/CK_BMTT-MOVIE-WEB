@@ -9,8 +9,8 @@ const Register = () =>{
 
     const navigate = useNavigate();
 
-    const redirectToLogin = () => {
-      navigate("/");
+    const handleLogin = () => {
+      navigate("/login");
     };
    
     return(
@@ -52,7 +52,7 @@ const Register = () =>{
                     </div>
                     <div className="button-group    ">
                         <button type="submit">Register</button>
-                        <button type="button" onClick={redirectToLogin}>Login</button>
+                        <button type="button" onClick={handleLogin}>Login</button>
                     </div>
                 </Form>
             </div>

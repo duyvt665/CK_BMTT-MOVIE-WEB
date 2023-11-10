@@ -7,9 +7,13 @@ const Login = () =>{
 
     const navigate = useNavigate();
     
-    const redirectToRegister = () => {
+    const handleRegister = () => {
         navigate('/register');
     };
+
+    const handleHome = () =>{
+        navigate('/');
+    }
     return(
         <>
             <h2 className="animate-charcter1">LOGIN</h2> 
@@ -25,8 +29,8 @@ const Login = () =>{
                     <input type="password" id="password" name="password" required/>
                 </div>
                 <div className="button-group    ">
-                    <button type="submit">Login</button>
-                    <button type="button" onClick={redirectToRegister}>Register</button>
+                    <button type="submit" onClick={handleHome}>Login</button>
+                    <button type="button" onClick={handleRegister}>Register</button>
                 </div>
                 </Form>
             </div>

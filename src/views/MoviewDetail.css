@@ -1,0 +1,95 @@
+body{
+    font-family: Arial, sans-serif;
+}
+.Menu-detail{
+    
+    
+    /* margin-left: 40px; */
+    /* margin-top: -85.7px;  */
+    margin:  auto;
+    /* z-index: 100; */
+}
+
+.Menu-detail-child{
+    color: white;
+    border: 2px solid rgb(75, 225, 225);
+    border-radius: 18px;
+    width: 1450px;
+    height: 50px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    z-index: 100;
+    margin:  auto;
+
+}
+.movie-detail-container {
+    display: flex;
+    margin: 20px;
+  }
+  
+  .movie-poster {
+    width: 300px;
+    height: 440px;
+    margin-right: 20px;
+  }
+  
+  .movie-info {
+    /* flex: 1; */
+    color: white;
+    width: 50%;
+  }
+  
+.title-child{
+    font-size: 30px;
+    margin-top: -10px;
+    color: #5CE1E6;
+}
+
+.title-detail{
+    /* margin-right: 1364px; */
+    margin-top: 70px;
+}
+
+.btn-detail{
+    background-color: blue;
+    border-radius: 12px;
+    width: 15%;
+    margin-top: 7px;
+}
+
+.btn-detail:hover{
+    background-color: rgb(5, 18, 87);  
+    color: aliceblue; 
+}
+
+.btn-detail-1{
+    background-color: green;
+    border-radius: 12px;
+    width: 15%;
+    margin-top: 7px;
+}
+
+.btn-detail-1:hover{
+    background-color: rgb(5, 83, 5); 
+    color: aliceblue;  
+}
+
+
+.separator-detail {
+    width: 96%;
+    border: 2px solid white; /* Loại bỏ border mặc định của thẻ hr */
+    height: 2px;
+    background-color: white;
+    margin-top: 0px; /* Điều chỉnh khoảng cách giữa line và h2 */
+    margin-left: 20px;
+}
+
+.profile-menu-detail{
+    margin-left: 1380px; 
+    margin-top: -8px;
+}
+
+.icon-ant{
+    font-size: 30px;
+}
