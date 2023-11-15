@@ -1,8 +1,9 @@
 body{
-    /* background-image: url('Home.png');
+    background-image: url('Home.png');
     background-size: cover;
-    background-position: center; */
+    background-position: center;
     background-color: #101111;
+    background-attachment: fixed;
     /* top: 0;
     left: 0;
     right: 0;
