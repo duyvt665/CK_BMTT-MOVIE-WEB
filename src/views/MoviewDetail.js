@@ -74,14 +74,14 @@ const handleInforUser = () =>{
     <>
      <div className="Menu-detail">
             <div className='Menu-detail-child'>
-                <button type="button" onClick={handleHome}>Trang chủ</button>
-                <button type="button" onClick={handleNewFlim}>Phim mới</button>
-                <button type="button" onClick={handleCommingSoonFilm}>Phim sắp chiếu</button>
-                <button type="button" onClick={handlePopularFilm}>Phim thịnh hành</button>
+                <button type="button" onClick={handleHome}>Home</button>
+                <button type="button" onClick={handleNewFlim}>New Movie</button>
+                <button type="button" onClick={handleCommingSoonFilm}>Upcoming Movie</button>
+                <button type="button" onClick={handlePopularFilm}>Popular Movie</button>
                 <div className="Login-home">
-                <button type="button" onClick={handleLogin}>Login</button>
-                <span>/</span>
-                <button type="button" onClick={handleRegister}>Register</button>
+                <button type="button" onClick={handleLogin}>Log out</button>
+                {/* <span>/</span>
+                <button type="button" onClick={handleRegister}>Register</button> */}
             </div>
             <div className="icon-home"></div>
             </div>

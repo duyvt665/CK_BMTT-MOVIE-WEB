@@ -11,6 +11,7 @@ import InforUser from './views/InforUser.js';
 import MovieDetail from './views/MoviewDetail.js';
 
 function App() {
+  
   return (
     <Router>
       <div className="App">

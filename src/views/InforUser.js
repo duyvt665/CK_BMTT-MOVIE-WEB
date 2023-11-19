@@ -3,8 +3,10 @@ import './InforUser.css';
 import { useNavigate } from "react-router-dom";
 import { UserOutlined } from '@ant-design/icons';
 
-    const InforUser = () =>{
-        const navigate = useNavigate();
+
+const InforUser = () =>{
+    const navigate = useNavigate();
+
 
     const handleRegister = () => {
         navigate('/register');
@@ -42,9 +44,9 @@ import { UserOutlined } from '@ant-design/icons';
             <button type="button" onClick={handleCommingSoonFilm}>Phim sắp chiếu</button>
             <button type="button" onClick={handlePopularFilm}>Phim thịnh hành</button>
             <div className="Login-home">
-                <button type="button" onClick={handleLogin}>Login</button>
-                <span>/</span>
-                <button type="button" onClick={handleRegister}>Register</button>
+                <button type="button" onClick={handleLogin}>Log out</button>
+                {/* <span>/</span>
+                <button type="button" onClick={handleRegister}>Register</button> */}
             </div>
             <div className="icon-home"></div>
             <div className="profile-menu-user">
@@ -53,22 +55,21 @@ import { UserOutlined } from '@ant-design/icons';
             <table>
             <tr>
                 <th>FullName</th>
-                <th>Nguyễn Văn A</th>
+                <th>Lê Nhật Duy</th>
             </tr>
             <tr>
                 <td>Birthday</td>
-                <td>01/01/2001</td>
+                <td>5/10/2002</td>
                
             </tr>
             <tr>
                 <td>UserName</td>
-                <td>Admin123</td>
+                <td>admin123</td>
                 
             </tr>
             <tr>
                 <td>Email</td>
-                <td>admin123@gmail.com</td>
-               
+                <td>duy950630@gmail.com</td>
             </tr>
         </table>
         </div>

@@ -142,9 +142,9 @@ const Home = () => {
             <button type="button" onClick={handleCommingSoonFilm}>Upcoming Movie</button>
             <button type="button" onClick={handlePopularFilm}>Popular Movie</button>
             <div className="Login-home">
-                <button type="button" onClick={handleLogin}>Login</button>
-                <span>/</span>
-                <button type="button" onClick={handleRegister}>Register</button>
+                <button type="button" onClick={handleLogin}>Log out</button>
+                {/* <span>/</span>
+                <button type="button" onClick={handleRegister}>Register</button> */}
             </div>
             <div className="icon-home"></div>
             <div className="profile-menu">
